@@ -24,17 +24,17 @@ root@hadoop-master:~#
 
 ### Para acceder al contenedor de Hadoop desde vscode
 
-Primero instalamos la extencion para usar docker desde el VSCode
+Primero instalamos la extensión para usar docker desde el VSCode
 
-![Install Docker](_md_src\R2YepRu8nM.png)
+![Install Docker](_md_src/R2YepRu8nM.png)
 
 Luego nos aparece un nuevo icono donde podemos ver los containers generados y enlazar una consola a el contenedor
 
-![Enganchar al contenedor](_md_src\8KE1vhTTcU.png)
+![Enganchar al contenedor](_md_src/8KE1vhTTcU.png)
 
 Ya en la consola de VSCode podemos ver que comando que se ejecuto para conectarnos al docker y el promt para comenzar a ingresar nuestros commandos
 
-![Enganchar al contenedor](_md_src\9DDaZSG720.png)
+![Enganchar al contenedor](_md_src/9DDaZSG720.png)
 
 ### Proseguimos desde la consola ingresando los comandos
 
@@ -85,23 +85,6 @@ total 292
 280 -rw-r--r-- 1 root root 284744 May  9 22:04 odisea.tar.gz
   8 drwx------ 1 root root   4096 May 10 11:07 ..
 ```
-
-Adicionalmente podemos ejecutar el comando
-
-``` bash
-ls -hflarts input
-```
-
-***Output***
-
-``` bash
-total 292K
-4.0K drwxr-xr-x 2 root root 4.0K May  9 22:04 .
-280K -rw-r--r-- 1 root root 279K May  9 22:04 odisea.tar.gz
-8.0K drwx------ 1 root root 4.0K May 10 11:07 ..
-```
-
-que añade una h antes de los parametros, esto lo que hace es que el resultado sea 'humanamente entendible' transformando el espacio total a K o G segun el tamaño del archivo
 
 ## 7. Crear y mover  directorio input al DFS de HADOOP
 
